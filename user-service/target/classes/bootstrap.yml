@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: admin-service   # service name used by Config Server
+  config:
+    import: "optional:configserver:http://localhost:8888"  # fetch config from config-service
